@@ -10,11 +10,11 @@ Tujuan utama dari pembuatan alat pendeteksi detak jantung adalah untuk menciptak
 
 ## Support By :
 
----
-- Dosen Pengampu : Akhmad Hendriawan ST., MT. (NIP.197501272002121003)
-- Mata kuliah : Mikrokontroler
-- Program Studi : D4 Teknik Elektronika
-- Politeknik Elektronika Negeri Surabaya
+- **Dosen Pengampu** : Akhmad Hendriawan ST., MT. (NIP.197501272002121003)
+- **Mata kuliah** : Mikrokontroler
+- **Program Studi** : D4 Teknik Elektronika
+- **Politeknik Elektronika Negeri Surabaya**
+
 
 ## Team Member :
 
@@ -24,7 +24,7 @@ Tujuan utama dari pembuatan alat pendeteksi detak jantung adalah untuk menciptak
 | 212360005  | A'Isyah Rozaan Bazighis     | UI/UX            | [Aisyah](https://github.com/Aisyah-Rozaan-B) |
 | 2123600013 | Achmad Zulfan Masruri       | UI/UX            | [Zulfan](https://github.com/AchmadZulfanMasruri) |
 | 2123600022 | Muhammad Hilmi Haidar Yahya | Program          | [Hilmi](https://github.com/Himi23)               |
-| 2123600025 | Muhammad Nabil              | Project Manager  | [Nabil](https://github.com/MuhammadNabil25/Smart-Clothes-Pendeteksi-Detak-Jantung) |
+| 2123600025 | Muhammad Nabil              | Project Manager  | [Nabil](https://github.com/MuhammadNabil25) |
 
 ## Preview video Ads
 [![Tonton Video](https://img.icons8.com/ios-filled/50/000000/play--v1.png)](https://drive.google.com/file/d/1gqJj9rEZ-l6uaHup8LIpwP9fy1YcfI8i/preview)
