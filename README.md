@@ -5,7 +5,7 @@ Proyek ini mengembangkan baju pintar berbasis Internet of Things (IoT) yang mamp
 
 
 ## Tujuan
-======= 
+
 Tujuan utama dari pembuatan alat pendeteksi detak jantung adalah untuk menciptakan solusi pemantauan detak jantung seseorang secara real time, otomatis dan akurat dengan biaya yang lebih rendah, praktis dibawa kemana-mana serta dapat memantau kondisi kesehatan dengan mudah.
 
 ## Support By :
