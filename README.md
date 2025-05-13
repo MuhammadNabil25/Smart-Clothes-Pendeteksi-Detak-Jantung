@@ -31,7 +31,7 @@ Tujuan utama dari pembuatan alat pendeteksi detak jantung adalah untuk menciptak
 
 ## Komponen Yang Digunakan
 
-1. **Hardware**  
+1. **Hardware**
    a. Modul GPS GY-NEO6MV2
    b. Sensor XD-58C
    c. Arduino
