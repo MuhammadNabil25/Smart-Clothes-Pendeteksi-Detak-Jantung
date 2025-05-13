@@ -30,21 +30,22 @@ Tujuan utama dari pembuatan alat pendeteksi detak jantung adalah untuk menciptak
 [![Tonton Video](https://img.icons8.com/ios-filled/50/000000/play--v1.png)](https://drive.google.com/file/d/1gqJj9rEZ-l6uaHup8LIpwP9fy1YcfI8i/preview)
 
 ## Komponen Yang Digunakan
-## 1. Hardware
-a. Modul GPS GY-NEO6MV2  
-b. Sensor XD-58C  
-c. Arduino  
-d. ESP8266-01 (sebagai modul wifi untuk IOT)  
- 
-## 2. Software
-a. KiCad  
-b. Visual Studio Code (VSC)  
-c. Tinkercad  
- 
-## 3. Alat
-a. Solder  
-b. Timah solder  
-c. Kabel jumper  
-d. Breadboard  
-e. Obeng  
+
+1. **Hardware**  
+   a. Modul GPS GY-NEO6MV2
+   b. Sensor XD-58C
+   c. Arduino
+   d. ESP8266-01 (sebagai modul wifi untuk IOT)
+
+3. **Software**  
+   a. KiCad
+   b. Visual Studio Code (VSC)  
+   c. Tinkercad  
+
+5. **Alat**  
+   a. PCB    
+   b. Kabel jumper    
+   d. Obeng
+   e. Oled
+
 
