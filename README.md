@@ -1,3 +1,6 @@
+![Screenshot App](poster.png)
+
+
 ## Smart Clothes-Pendekteksi Detak Jantung
 
 Penyakit jantung koroner masih menjadi penyebab utama kematian di seluruh dunia, termasuk di Indonesia, dengan angka kejadian yang terus meningkat setiap tahun. Pemeriksaan jantung konvensional umumnya memerlukan biaya tinggi karena penggunaan alat medis yang mahal dan kurang praktis untuk pemantauan rutin.
