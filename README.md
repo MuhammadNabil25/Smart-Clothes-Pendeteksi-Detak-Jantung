@@ -1,4 +1,4 @@
-![Screenshot App](poster.png)
+
 
 
 ## Smart Clothes-Pendekteksi Detak Jantung
