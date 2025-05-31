@@ -47,12 +47,10 @@ Tujuan utama dari pembuatan alat pendeteksi detak jantung adalah untuk menciptak
    - Sensor XD-58C
    - Arduino
    - ESP8266-01 (sebagai modul wifi untuk IOT)
-
 2. **Software**
    - KiCad
    - Visual Studio Code (VSC)
    - Tinkercad
-
 3. **Alat**
    - PCB
    - Kabel jumper
