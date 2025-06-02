@@ -1,4 +1,4 @@
-[17487096732901012539508672994156](https://github.com/user-attachments/assets/15cf7b55-c428-473b-90de-b181ab9222a8?raw=true)
+
 
 
 (https://github.com/MuhammadNabil25/Smart-Clothes-Pendeteksi-Detak-Jantung/blob/a88b6a954a7c746cb9e31bb136f2c1484c575b07/PosterSmartClothes.png?raw=true) 
