@@ -1,4 +1,4 @@
-### Poster Proyek
+
 
 ![Poster Smart Clothes](https://github.com/MuhammadNabil25/Smart-Clothes-Pendeteksi-Detak-Jantung/blob/fb3e4276691f2f272fe2c9729451a6f8f067d0fc/PosterSmartClothes.png?raw=true)
 
