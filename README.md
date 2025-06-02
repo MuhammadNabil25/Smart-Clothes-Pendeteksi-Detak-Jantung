@@ -1,11 +1,3 @@
-
-
-
-(https://github.com/MuhammadNabil25/Smart-Clothes-Pendeteksi-Detak-Jantung/blob/a88b6a954a7c746cb9e31bb136f2c1484c575b07/PosterSmartClothes.png?raw=true) 
-
-
-
-
 ## Smart Clothes-Pendekteksi Detak Jantung
 
 Penyakit jantung koroner masih menjadi penyebab utama kematian di seluruh dunia, termasuk di Indonesia, dengan angka kejadian yang terus meningkat setiap tahun. Pemeriksaan jantung konvensional umumnya memerlukan biaya tinggi karena penggunaan alat medis yang mahal dan kurang praktis untuk pemantauan rutin.
