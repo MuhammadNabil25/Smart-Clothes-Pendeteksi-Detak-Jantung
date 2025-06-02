@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Clothes App</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0f2b33">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --bg: #0f2b33;
+      --card: #183840;
+      --accent: #ff6b6b;
+      --accent-hover: #ff4d4d;
+      --text: #ffffff;
+      --muted: #a0b0b9;
+      --radius: 20px;
+      --padding: 24px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: var(--padding);
+    }
+    .page {
+      background: var(--card);
+      padding: var(--padding);
+      border-radius: var(--radius);
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+      position: relative;
+      margin-bottom: 80px;
+      animation: fadeIn 0.4s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .hidden { display: none; }
+    h1, h2 { margin-bottom: 20px; font-weight: 700; text-align: center; }
+    p { margin-bottom: 10px; color: var(--muted); font-size: 14px; text-align: center; }
+    input, button {
+      width: 100%; padding: 12px; margin-top: 12px;
+      border-radius: var(--radius); border: none; font-size: 16px;
+    }
+    input { background: #2b4c55; color: var(--text); }
+    button {
+      background: var(--accent); color: var(--text); cursor: pointer;
+      transition: background 0.3s; font-weight: 600;
+    }
+    button:hover { background: var(--accent-hover); }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+      gap: 10px;
+    }
+    nav button {
+      background: #1c3d47;
+      color: var(--text);
+      border-radius: 12px;
+      padding: 12px;
+    }
+    ul { list-style: none; margin-top: 10px; }
+    li {
+      padding: 12px;
+      background: #1f3f47;
+      margin-bottom: 10px;
+      border-radius: var(--radius);
+      font-size: 14px;
+      color: var(--text);
+    }
+    a { color: var(--accent); text-decoration: none; }
+    .back-btn {
+      position: relative;
+      background: var(--accent);
+      margin-top: 30px;
+      width: 100%;
+      font-size: 16px;
+    }
+    .centered-text {
+      text-align: center;
+      font-size: 16px;
+      margin: 20px 0;
+    }
+    .highlight {
+      font-size: 36px;
+      font-weight: bold;
+      color: var(--accent);
+      text-align: center;
+    }
+    .loading-text {
+      text-align: center;
+      font-size: 16px;
+      animation: pulse 1.2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    canvas {
+      background: #1f3f47;
+      border-radius: var(--radius);
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Login Page -->
+<div id="loginPage" class="page">
+  <h1><i class="fas fa-heartbeat"></i> Smart Clothes</h1>
+  <p>Login</p>
+  <input type="email" placeholder="email@example.com" id="loginEmail">
+  <input type="password" placeholder="password" id="loginPassword">
+  <button onclick="navigate('homePage')">Login</button>
+  <p>Don't have an account? <a href="#">Sign Up</a></p>
+</div>
+
+<!-- Home Page -->
+<div id="homePage" class="page hidden">
+  <h1><i class="fas fa-tshirt"></i> Smart Clothes</h1>
+  <p>Hi User...</p>
+  <div class="highlight">86 BPM</div>
+  <button onclick="navigate('heartPage')"><i class="fas fa-chart-line"></i> Heart Rate</button>
+  <button onclick="navigate('locationPage')"><i class="fas fa-map-marker-alt"></i> Location</button>
+  <button onclick="navigate('emergencyPage')"><i class="fas fa-exclamation-triangle"></i> Emergency</button>
+  <nav>
+    <button onclick="navigate('homePage')"><i class="fas fa-home"></i></button>
+    <button onclick="navigate('statisticPage')"><i class="fas fa-chart-bar"></i></button>
+    <button onclick="navigate('settingsPage')"><i class="fas fa-cog"></i></button>
+    <button onclick="navigate('profilePage')"><i class="fas fa-user"></i></button>
+  </nav>
+</div>
+
+<!-- Profile Page -->
+<div id="profilePage" class="page hidden">
+  <h2>Profile</h2>
+  <p>Name: Achmad Saputra</p>
+  <p>Email: achmad@example.com</p>
+  <p>Password: ********</p>
+  <p>Heart Rate Target: 100 BPM</p>
+  <button onclick="navigate('loginPage')">Log Out</button>
+  <button class="back-btn" onclick="navigate('homePage')"><i class="fas fa-arrow-left"></i> Back</button>
+</div>
+
+<!-- Settings Page -->
+<div id="settingsPage" class="page hidden">
+  <h2>Settings</h2>
+  <ul>
+    <li>Account</li>
+    <li>Notification</li>
+    <li>Heart Rate</li>
+    <li onclick="navigate('locationPage')">Location</li>
+    <li>Emergency Contacts</li>
+  </ul>
+  <button class="back-btn" onclick="navigate('homePage')"><i class="fas fa-arrow-left"></i> Back</button>
+</div>
+
+<!-- Statistic Page with Chart -->
+<div id="statisticPage" class="page hidden">
+  <h2>Statistic</h2>
+  <canvas id="heartChart" width="400" height="200"></canvas>
+  <p><i class="fas fa-heartbeat"></i> Heart Rate</p>
+  <p>Low: 82 BPM | Avg: 86 BPM | High: 94 BPM</p>
+  <ul>
+    <li>15 May - 07:00</li>
+    <li>15 May - 11:00</li>
+    <li>14 May - 20:10</li>
+    <li>13 May - 05:14</li>
+    <li>12 May - 09:16</li>
+  </ul>
+  <button class="back-btn" onclick="navigate('homePage')"><i class="fas fa-arrow-left"></i> Back</button>
+</div>
+
+<!-- Emergency Page with Animation -->
+<div id="emergencyPage" class="page hidden">
+  <h2><i class="fas fa-exclamation-triangle"></i> Emergency</h2>
+  <p class="loading-text">Contacting Emergency Services...</p>
+  <button>Cancel</button>
+  <button class="back-btn" onclick="navigate('homePage')"><i class="fas fa-arrow-left"></i> Back</button>
+</div>
+
+<!-- Location Page -->
+<div id="locationPage" class="page hidden">
+  <h2><i class="fas fa-map-marker-alt"></i> Location</h2>
+  <p>Achmad</p>
+  <p>Jl. Kenariaya No. 10</p>
+  <p>Surabaya, Indonesia</p>
+  <button class="back-btn" onclick="navigate('homePage')"><i class="fas fa-arrow-left"></i> Back</button>
+</div>
+
+<!-- Heart Page -->
+<div id="heartPage" class="page hidden">
+  <h2><i class="fas fa-history"></i> Heart Rate History</h2>
+  <ul>
+    <li>16 May - 82 AVG BPM</li>
+    <li>15 May - 90 AVG BPM</li>
+    <li>14 May - 86 AVG BPM</li>
+    <li>13 May - 79 AVG BPM</li>
+    <li>12 May - 85 AVG BPM</li>
+    <li>11 May - 94 AVG BPM</li>
+  </ul>
+  <button class="back-btn" onclick="navigate('homePage')"><i class="fas fa-arrow-left"></i> Back</button>
+</div>
+
+<script>
+  function navigate(pageId) {
+    document.querySelectorAll('.page').forEach(page => page.classList.add('hidden'));
+    document.getElementById(pageId).classList.remove('hidden');
+    if (pageId === 'statisticPage') {
+      setTimeout(renderChart, 100);
+    }
+  }
+
+  function renderChart() {
+    const ctx = document.getElementById('heartChart');
+    if (!ctx || ctx.dataset.rendered) return;
+    const chart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: ['12 May', '13 May', '14 May', '15 May', '16 May'],
+        datasets: [{
+          label: 'Heart Rate',
+          data: [85, 79, 86, 90, 82],
+          borderColor: '#ff6b6b',
+          backgroundColor: 'rgba(255, 107, 107, 0.2)',
+          tension: 0.4,
+          fill: true
+        }]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          y: {
+            beginAtZero: false
+          }
+        }
+      }
+    });
+    ctx.dataset.rendered = true;
+  }
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').then(() => console.log('Service Worker Registered'));
+  }
+</script>
+</body>
+</html>
