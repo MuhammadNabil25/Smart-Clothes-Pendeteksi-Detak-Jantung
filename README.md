@@ -39,6 +39,10 @@ Tujuan utama dari pembuatan alat pendeteksi detak jantung adalah untuk menciptak
 ## Preview video Ads
 [![Tonton Video](https://img.icons8.com/ios-filled/50/000000/play--v1.png)](https://drive.google.com/file/d/1gqJj9rEZ-l6uaHup8LIpwP9fy1YcfI8i/preview)
 
+## Desain 3D
+![Smart Clothes Poster](https://github.com/MuhammadNabil25/Smart-Clothes-Pendeteksi-Detak-Jantung/blob/a2d992799477b0f05c82077a3590afcb93c36f8d/assets/erasebg-transformed.png?raw=true)
+
+
 ## Komponen Yang Digunakan
 
 1. **Hardware**
