@@ -1,4 +1,4 @@
-![17487096732901012539508672994156](https://github.com/user-attachments/assets/15cf7b55-c428-473b-90de-b181ab9222a8?raw=true)
+![image](https://github.com/user-attachments/assets/ba5f48b2-20d5-4582-b634-c6220c60a10c)![17487096732901012539508672994156](https://github.com/user-attachments/assets/15cf7b55-c428-473b-90de-b181ab9222a8?raw=true)
 
 
 
@@ -56,6 +56,13 @@ Tujuan utama dari pembuatan alat pendeteksi detak jantung adalah untuk menciptak
    - Kabel jumper
    - Obeng
    - Oled
+   
+## Desain Schematic
+![Schematic Design](https://github.com/MuhammadNabil25/Smart-Clothes-Pendeteksi-Detak-Jantung/blob/main/assets/IMG-20250520-WA0001.jpg)
+
+## Desain PCB
+![PCB Design](https://github.com/MuhammadNabil25/Smart-Clothes-Pendeteksi-Detak-Jantung/blob/main/assets/IMG-20250520-WA0004.jpg)
+
 
 
 
