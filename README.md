@@ -88,6 +88,12 @@ Tujuan utama dari pembuatan alat pendeteksi detak jantung adalah untuk menciptak
 ![Blok Diagram](https://github.com/MuhammadNabil25/Smart-Clothes-Pendeteksi-Detak-Jantung/blob/main/assets/WhatsApp%20Image%202025-05-20%20at%2012.00.56%20PM.jpeg)
 
 
+## UI/UX Design
 
+### Tampilan Figma
+![Tampilan Figma](https://github.com/MuhammadNabil25/Smart-Clothes-Pendeteksi-Detak-Jantung/blob/e1ed6b9b39374f28dbf091c7f5a064a74364306a/assets/Tampilan%20Figma.jpg?raw=true)
+
+### Tampilan GUI
+![Tampilan GUI](https://github.com/MuhammadNabil25/Smart-Clothes-Pendeteksi-Detak-Jantung/blob/e1ed6b9b39374f28dbf091c7f5a064a74364306a/assets/Tampilan%20GUI.jpg?raw=true)
 
 
