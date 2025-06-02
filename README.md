@@ -22,7 +22,8 @@ Tujuan utama dari pembuatan alat pendeteksi detak jantung adalah untuk menciptak
 
 - **Dosen Pengampu** : Akhmad Hendriawan ST., MT. (NIP.197501272002121003)
 - **Mata kuliah** : Mikrokontroler
-- **Program Studi** : D4 Teknik Elektronika
+- **Program Studi D4 Teknik Elektronika**
+- **Departemen Teknik Elektro**
 - **Politeknik Elektronika Negeri Surabaya**
 
 
